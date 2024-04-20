@@ -6117,14 +6117,7 @@ textarea.form-control-lg {
   background-size: 100% 100%;
 }
 
-/* rtl:options: {
-  "autoRename": true,
-  "stringMap":[ {
-    "name"    : "prev-next",
-    "search"  : "prev",
-    "replace" : "next"
-  } ]
-} */
+
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
 }
@@ -11419,6 +11412,84 @@ section.resume-section {
 section.resume-section .resume-section-content {
   width: 100%;
 }
+.project {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project h1 {
+  margin-top: 50px;
+  color: #bd5d38;
+  font-size: 35px;
+}
+.project img {
+  width: 700px;
+  border-radius: 10px;
+}
+
+.project p {
+  font-size: 40px;
+  color: #bd5d38;
+}
+
+.project svg {
+  font-size: 60px;
+  color: #bd5d38;
+}
+.projectItem {
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.projectItem:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.projectItem .bgImage {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projectItem h1 {
+  font-size: 25px;
+}
+.projects {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.projects .projectTitle {
+  text-align: center;
+  color: #bd5d38;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.projectList {
+  width: 70vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
 
 @media (min-width: 768px) {
   section.resume-section {

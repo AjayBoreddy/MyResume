@@ -13,8 +13,37 @@ const Experience = () => {
           <div class="resume-section-content">
             <h2 class="mb-5">Experience</h2>
             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+              <div class="flex-grow-1">
+                <h3 class="mb-0">Software Developer</h3>
+                <div class="subheading mb-3">New York State Of Information Technology & Services</div>
+                <p>
+                  <b>Project Description:</b>
+                  The Office of Cannabis Management (OCM) in New York State is at the forefront of implementing the Marijuana Regulation and Taxation Act (MRTA), which establishes a groundbreaking regulatory framework for overseeing the licensing, cultivation, production, distribution, sale, and taxation of medical, adult-use, and cannabinoid hemp products within the state.
+                   In 2023, the OCM, in collaboration with CAURD (Cannabis Agriculture and Urban-Rural Development) and AUCC (Adult-Use Cannabis Cultivators) licensees, organized 141 Cannabis Grower Showcase (CGS) days in 43 cities and towns across New York State.
+                   These events provided a platform for licensed cannabis growers to showcase their products and engage with consumers.
+                   <br/>
+                    <p>
+                   
+                    <b>Roles and Responsibilities:-</b>
+                    <br />
+                    Contributed to the enhancement of the existing Cannabis License Application by adding new features and functionalities. <br />
+                    Led Development efforts on key project: Office of Cannabis License Application, Tpi Disclosure Application. <br />
+                    Actively Participated in the Requirement Gathering Application Process, ensuring effective communication between
+                    stakeholders and development teams. <br />
+                    Solid understanding of testing components and deliverable within the Systems Development Lifecycle (SDLC)
+                       <br />
+                   
+                      </p>
+                      </p>
+              </div>
+              <div class="flex-shrink-0">
+                <span class="text-primary">February 2024 - Present</span>
+              </div>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
               
               <div class="flex-grow-1">
+                
                 <h3 class="mb-0">Software Engineer</h3>
                 <div class="subheading mb-3">CGI Inc</div>
                 <p>
@@ -67,10 +96,10 @@ const Experience = () => {
                 <div class="subheading mb-3">NIIT Venture</div>
                 <p>
                   Worked on the development of a web application using ASP.NET <br />
-Website development creation of web content and designing the front end of web pages. <br/>
-Done a project with sensors to test the functionality and implemented the working model.<br />
-Experience in bug fixing and troubleshooting issues.<br />
-Worked on the implementation and testing of sensors and programming it for the automation.
+                   Website development creation of web content and designing the front end of web pages. <br/>
+                     Done a project with sensors to test the functionality and implemented the working model.<br />
+                     Experience in bug fixing and troubleshooting issues.<br />
+                     Worked on the implementation and testing of sensors and programming it for the automation.
                 </p>
               </div>
               <div class="flex-shrink-0">
